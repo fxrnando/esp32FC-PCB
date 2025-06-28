@@ -1,0 +1,38 @@
+*.bak
+*.tmp
+*.log
+*.net
+*.xml
+*.b#*
+__pycache__/
+*.pyc
+
+# Backup and autosave files
+hardware/*/kicad_pcb/*.bak
+hardware/*/kicad_pcb/*.kicad-bak
+hardware/*/kicad_pcb/*.tmp
+hardware/*/kicad_pcb/*~
+
+# User-specific settings
+hardware/*/kicad_pcb/*.kicad_prl
+hardware/*/kicad_pcb/fp-info-cache
+hardware/*/kicad_pcb/__pycache__/
+
+# Cache and generated files
+hardware/*/kicad_pcb/*.dcm
+hardware/*/kicad_pcb/*.cache
+hardware/*/kicad_pcb/*.sch-bak
+hardware/*/kicad_pcb/*.kicad_sch-bak
+hardware/*/kicad_pcb/*.kicad_pcb-bak
+hardware/*/kicad_pcb/*-backups/
+
+# Simulation output
+hardware/*/kicad_pcb/*.log
+hardware/*/kicad_pcb/*.raw
+hardware/*/kicad_pcb/*.cir
+hardware/*/kicad_pcb/*.out
+
+# Project-specific temp files
+hardware/*/kicad_pcb/*.pro.user
+hardware/*/kicad_pcb/*.swp
+hardware/*/kicad_pcb/*.swo

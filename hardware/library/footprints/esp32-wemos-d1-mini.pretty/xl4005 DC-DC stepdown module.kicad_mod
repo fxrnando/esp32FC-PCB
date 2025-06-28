@@ -1,0 +1,167 @@
+(footprint "xl4005 DC-DC stepdown module"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "490717b1-4d70-496f-a307-8883ca4118f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "xl4005 DC-DC stepdown module"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6d4f3e84-0813-4d2f-8e79-3f10bcfb8233")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ebb4f99-8191-4684-ac7a-53ff4eeacaf7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3826c03f-7961-4494-9275-6ca8c2b2db6b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -22.225 3.81)
+		(end -22.225 25.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0b6e9078-a855-4ba1-afd9-1f160bd10752")
+	)
+	(fp_line
+		(start -22.225 3.81)
+		(end 22.225 3.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f54f8869-8b06-4b0e-9883-6e399b433d00")
+	)
+	(fp_line
+		(start -22.225 25.4)
+		(end 22.225 25.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4a0eeea6-de77-458f-b520-2d613099be14")
+	)
+	(fp_line
+		(start 22.225 3.81)
+		(end 22.225 25.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f74e99e4-d6a7-4f72-9b70-c3260efc6c61")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b76b128b-1c31-4454-bf45-6140a2ce9630")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -16.51 5.715)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "4fc1c504-c149-4a31-a0aa-f6e41766f97f")
+	)
+	(pad "" np_thru_hole circle
+		(at 16.51 23.495)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "f6510e96-b099-4ab8-bbdc-fce78eb7782a")
+	)
+	(pad "1" thru_hole oval
+		(at -20.32 5.715 270)
+		(size 2.3 3.2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a2894323-ee10-46f2-8c3f-df35ce39e03e")
+	)
+	(pad "2" thru_hole oval
+		(at -20.32 23.495 270)
+		(size 2.3 3.2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7dbed084-9749-440e-b2ec-f3771a59932d")
+	)
+	(pad "3" thru_hole oval
+		(at 20.32 23.495 270)
+		(size 2.3 3.2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "baa1132c-2854-42da-be92-07b07d2e0e89")
+	)
+	(pad "4" thru_hole oval
+		(at 20.32 5.715 270)
+		(size 2.3 3.2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9684d1c2-5951-45de-b5cc-92f5f47e5251")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_LIBS_DIR}/3dmodels/XL4005_MODELO_3D_1.step"
+		(offset
+			(xyz -0.9 -19.5 -43.2)
+		)
+		(scale
+			(xyz 0.99 0.95 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
