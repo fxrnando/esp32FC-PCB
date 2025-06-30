@@ -16,6 +16,8 @@ hardware/*/kicad_pcb/*~
 # User-specific settings
 hardware/*/kicad_pcb/*.kicad_prl
 hardware/*/kicad_pcb/fp-info-cache
+hardware/*/kicad_pcb/ibom.config.ini
+hardware/*/kicad_pcb/board2pdf.config.ini
 hardware/*/kicad_pcb/__pycache__/
 
 # Cache and generated files

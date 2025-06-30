@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "e210630d-a11a-4fe2-8db1-fd989991204e")
 	(paper "A4")
+	(title_block
+		(title "ESP32FC - PCB for X Quadcopter Drones")
+		(date "2025-06-29")
+		(rev "v2.0")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x03_Pin"
 			(pin_names
