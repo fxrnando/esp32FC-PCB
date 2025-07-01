@@ -1,5 +1,8 @@
 # ESP32FC - PCB for X Quadcopter Drones
 
+<img src="hardware/v2-double-sided/exports/3dViews/esp32FC_iso.png" alt="PCB v2 iso front view" width="500"/>
+<img src="hardware/v2-double-sided/exports/3dViews/esp32FC_iso2.png" alt="PCB v2 iso back view" width="500"/>
+
 This repository contains the PCB designs and hardware documentation for a flight controller extension board based on the [esp-fc](https://github.com/rtlopez/esp-fc) project. The board is designed to connect an ESP32  microcontroller to a set of peripherals commonly used in unmanned aerial vehicles (UAVs) and robotics.
 
 ## 📦 Project Structure
@@ -36,11 +39,13 @@ The board is designed to be installed in a standard F450 X-frame drone, but may 
 hardware/                  PCB designs
   └── v1-single-sided/     Single-layer version
   └── v2-double-sided/     Dual-layer version
+        └── exports/       3d images, BOM, g 
+        └── kicad_pcb/    
   └── library/             Custom symbols & footprints
 firmware/                  Optional test or support code
   └── ...
-docs/                     Diagrams and usage docs
-tools/                    Scripts for BOM or Gerber generation
+docs/                      Diagrams and usage docs
+tools/                     Scripts for BOM or Gerber generation
 ```
 
 ## 🔧 Development

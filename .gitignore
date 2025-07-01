@@ -21,6 +21,7 @@ hardware/*/kicad_pcb/board2pdf.config.ini
 hardware/*/kicad_pcb/__pycache__/
 
 # Cache and generated files
+hardware/*/kicad_pcb/*.lck
 hardware/*/kicad_pcb/*.dcm
 hardware/*/kicad_pcb/*.cache
 hardware/*/kicad_pcb/*.sch-bak
