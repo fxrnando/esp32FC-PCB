@@ -1,5 +1,4 @@
 # ESP32FC - PCB for X Quadcopter Drones
-
 <img src="hardware/v2-double-sided/exports/3dViews/esp32FC_iso.png" alt="PCB v2 iso front view" width="500"/>
 <img src="hardware/v2-double-sided/exports/3dViews/esp32FC_iso2.png" alt="PCB v2 iso back view" width="500"/>
 
@@ -33,6 +32,23 @@ The project contains two PCB versions:
   * Companion computer (e.g., Jetson Nano)
 
 The board is designed to be installed in a standard F450 X-frame drone, but may also be adapted to fit other drone models with minor modifications.
+
+## 📷 General Connections Diagram
+
+Below is a visual representation of the wiring and placement of components for the quadcopter configuration using the ESP32FC board:
+
+<img src="docs/images/wiringDiagram.png" alt="PCB v2 iso front view" width="500"/>
+
+Legend:
+* Yellow components: Electronic Speed Controllers (ESCs)
+* Orange components: Brushless motors
+* Center green board: ESP32FC custom PCB
+* Black antenna: ELRS receiver module
+
+All motor ESC signal wires are routed to the motor control pins on the PCB, while power and telemetry signals are handled via separate connections to the battery and optional modules.
+
+
+
 ## 🗂 Folder Overview
 
 ```text
@@ -44,7 +60,7 @@ hardware/                  PCB designs
   └── library/             Custom symbols & footprints
 firmware/                  Optional test or support code
   └── ...
-docs/                      Diagrams and usage docs
+docs/                      Diagrams and usage docs and files
 tools/                     Scripts for BOM or Gerber generation
 ```
 
