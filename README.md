@@ -4,6 +4,8 @@
 
 This repository contains the PCB designs and hardware documentation for a flight controller extension board based on the [esp-fc](https://github.com/rtlopez/esp-fc) project. The board is designed to connect an ESP32  microcontroller to a set of peripherals commonly used in unmanned aerial vehicles (UAVs) and robotics.
 
+The project is intended to be developed using modular components commonly found in Arduino projects. This makes it easier for hobbyists to source and manipulate the parts, facilitating both assembly and PCB construction.
+
 ## 📦 Project Structure
 
 The project contains two PCB versions:
